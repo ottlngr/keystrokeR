@@ -5,6 +5,7 @@
 #' @details The provided character string will be split into single upper-case characters and each character then gets matched to a given keyboard layout dataset. Besides the respective character or letter the keyboard layout dataset also includes the positions of each key on the keyboard. According to the number of the appearance of each character the single keys on the keyboard get filled.
 #' @import ggplot2
 #' @import magrittr
+#' @export plot_keystrokes
 #' @return ggplot2 object
 #' @examples
 #' plot_keystrokes(string = "Hello! Isn't R 3.2.5 just great?", layout = "qwerty")
