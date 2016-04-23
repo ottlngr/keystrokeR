@@ -1,0 +1,10 @@
+Package: keystrokeR
+Type: Package
+Title: Plot keytrokes on a keyboard.
+Version: 0.1
+Author: Philipp Ottolinger [aut, cre]
+Maintainer: Philipp Ottolinger <philipp@ottolinger.de>
+Description: Plot the keystrokes necessary for typing an arbitrary character string. The character string gets split into single characters and is then matched to a certain keyboard layout (like QWERTY). The use of each character on the keyboard is counted and gets visualized by a fill scale.
+License: GPL-3
+LazyData: TRUE
+RoxygenNote: 5.0.1
